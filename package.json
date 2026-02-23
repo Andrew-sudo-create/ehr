@@ -1,0 +1,12 @@
+{
+  "name": "ehr",
+  "private": true,
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run build && npm run start",
+    "seed:fhir": "cd backend && npm run seed:fhir",
+    "clear:fhir": "cd backend && npm run clear:fhir"
+  }
+}

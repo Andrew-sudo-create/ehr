@@ -1,0 +1,72 @@
+# Full EHR stack: frontend, backend API, FHIR server, database
+# Run from repo root: docker compose up --build
+
+services:
+  fhir-db:
+    image: postgres:15-alpine
+    container_name: ehr-fhir-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: hapi_fhir
+      POSTGRES_USER: fhiruser
+      POSTGRES_PASSWORD: fhirpassword
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U fhiruser -d hapi_fhir"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  hapi-fhir:
+    image: hapiproject/hapi:latest
+    container_name: ehr-hapi-fhir
+    ports:
+      - "8080:8080"
+    environment:
+      spring.datasource.url: jdbc:postgresql://fhir-db:5432/hapi_fhir
+      spring.datasource.username: fhiruser
+      spring.datasource.password: fhirpassword
+      spring.datasource.driverClassName: org.postgresql.Driver
+      spring.jpa.properties.hibernate.dialect: ca.uhn.fhir.jpa.model.dialect.HapiFhirPostgresDialect
+      JAVA_OPTS: "-Xms1024m -Xmx2048m"
+      hapi.fhir.fhir_version: R4
+    depends_on:
+      fhir-db:
+        condition: service_healthy
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: ehr-backend
+    ports:
+      - "3001:3001"
+    environment:
+      PORT: 3001
+      FHIR_SERVER_URL: http://hapi-fhir:8080/fhir
+      # Allow frontend origin (browser hits frontend at localhost:3000)
+      ALLOWED_ORIGINS: http://localhost:3000,http://127.0.0.1:3000
+    depends_on:
+      hapi-fhir:
+        condition: service_started
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: ehr-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      # Browser will call backend at this URL (same host, different port)
+      NEXT_PUBLIC_BACKEND_API_URL: http://localhost:3001
+      NEXT_PUBLIC_FHIR_SERVER_URL: http://localhost:8080/fhir
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

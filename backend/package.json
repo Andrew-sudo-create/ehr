@@ -1,0 +1,21 @@
+{
+  "name": "ehr-backend",
+  "version": "1.0.0",
+  "description": "EHR Backend API Server",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "seed": "node scripts/seed-patients.js",
+    "seed:fhir": "node scripts/seed-fhir-patients.js",
+    "clear:fhir": "node scripts/clear-fhir-data.js"
+  },
+  "keywords": ["ehr", "fhir", "api"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}

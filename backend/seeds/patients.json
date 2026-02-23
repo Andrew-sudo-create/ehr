@@ -1,0 +1,2200 @@
+[
+  {
+    "firstName": "James",
+    "lastName": "Wilson",
+    "gender": "male",
+    "birthDate": "1975-03-12",
+    "phone": "(555) 201-3401",
+    "email": "james.wilson@email.com",
+    "address": {
+      "line": "124 Oak Street",
+      "city": "Springfield",
+      "state": "IL",
+      "postalCode": "62701",
+      "country": "USA"
+    },
+    "medicalAid": "AETNA-88291",
+    "visits": [
+      {
+        "date": "2024-11-15",
+        "reason": "Annual physical",
+        "notes": [
+          "Subjective: Patient presented for annual physical. Routine checkup, all vitals normal Annual physical. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Complete physical exam performed. Vital signs stable. No acute findings.",
+          "Assessment: Annual physical. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "vitals": [
+      {
+        "date": "2024-11-15",
+        "type": "Blood Pressure",
+        "value": "118/76 mmHg"
+      },
+      {
+        "date": "2024-11-15",
+        "type": "Heart Rate",
+        "value": "72 bpm"
+      }
+    ]
+  },
+  {
+    "firstName": "Maria",
+    "lastName": "Garcia",
+    "gender": "female",
+    "birthDate": "1988-07-22",
+    "phone": "(555) 302-4512",
+    "email": "maria.garcia@email.com",
+    "address": {
+      "line": "456 Elm Ave",
+      "city": "Austin",
+      "state": "TX",
+      "postalCode": "78701",
+      "country": "USA"
+    },
+    "medicalAid": "BCBS-TX-44521",
+    "visits": [
+      {
+        "date": "2024-12-01",
+        "reason": "Follow-up",
+        "notes": [
+          "Subjective: Patient presented for follow-up. Blood sugar improved with diet changes Follow-up. Stable. Continue current management. Follow up as scheduled.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unchanged from baseline.",
+          "Assessment: Follow-up. Stable.",
+          "Plan: Continue current management. Follow up as scheduled."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Type 2 Diabetes",
+        "onsetDate": "2022-05-10"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Metformin 500mg",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Robert",
+    "lastName": "Chen",
+    "gender": "male",
+    "birthDate": "1962-11-08",
+    "phone": "(555) 403-5623",
+    "email": "robert.chen@email.com",
+    "address": {
+      "line": "789 Pine Rd",
+      "city": "San Francisco",
+      "state": "CA",
+      "postalCode": "94102",
+      "country": "USA"
+    },
+    "medicalAid": "KAISER-77234",
+    "visits": [
+      {
+        "date": "2024-10-20",
+        "reason": "Cardiology follow-up",
+        "notes": [
+          "Subjective: Patient presented for cardiology follow-up. EKG stable, continue current meds Cardiology follow-up. Stable. Continue current management. Follow up as scheduled.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unchanged from baseline.",
+          "Assessment: Cardiology follow-up. Stable.",
+          "Plan: Continue current management. Follow up as scheduled."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Hypertension",
+        "onsetDate": "2018-03-01"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Lisinopril 10mg",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Jennifer",
+    "lastName": "Martinez",
+    "gender": "female",
+    "birthDate": "1995-01-30",
+    "phone": "(555) 504-6734",
+    "email": "jennifer.m@email.com",
+    "address": {
+      "line": "321 Cedar Lane",
+      "city": "Denver",
+      "state": "CO",
+      "postalCode": "80202",
+      "country": "USA"
+    },
+    "visits": [
+      {
+        "date": "2024-09-12",
+        "reason": "Wellness visit",
+        "notes": [
+          "Subjective: Patient presented for wellness visit. Patient presented for wellness visit. No acute complaints. Wellness visit. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Complete physical exam performed. Vital signs stable. No acute findings.",
+          "Assessment: Wellness visit. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "labs": [
+      {
+        "date": "2024-09-12",
+        "type": "CBC",
+        "result": "Within normal limits"
+      }
+    ]
+  },
+  {
+    "firstName": "David",
+    "lastName": "Thompson",
+    "gender": "male",
+    "birthDate": "1970-05-17",
+    "phone": "(555) 605-7845",
+    "email": "d.thompson@email.com",
+    "address": {
+      "line": "555 Maple Dr",
+      "city": "Seattle",
+      "state": "WA",
+      "postalCode": "98101",
+      "country": "USA"
+    },
+    "medicalAid": "UNITED-33456",
+    "visits": [
+      {
+        "date": "2024-11-28",
+        "reason": "Knee pain",
+        "notes": [
+          "Subjective: Patient presented for knee pain. X-ray ordered, possible osteoarthritis Knee pain. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Musculoskeletal exam performed. Range of motion and strength assessed.",
+          "Assessment: Knee pain. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Osteoarthritis, knee",
+        "onsetDate": "2023-01-15"
+      }
+    ]
+  },
+  {
+    "firstName": "Sarah",
+    "lastName": "Anderson",
+    "gender": "female",
+    "birthDate": "1982-09-04",
+    "phone": "(555) 706-8956",
+    "email": "sarah.a@email.com",
+    "address": {
+      "line": "888 Birch St",
+      "city": "Portland",
+      "state": "OR",
+      "postalCode": "97201",
+      "country": "USA"
+    },
+    "medicalAid": "CIGNA-99812",
+    "visits": [
+      {
+        "date": "2024-12-05",
+        "reason": "Prenatal check",
+        "notes": [
+          "Subjective: Patient presented for prenatal check. Week 24, fetal heart rate normal Prenatal check. Stable. Continue current management. Follow up as scheduled.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unchanged from baseline.",
+          "Assessment: Prenatal check. Stable.",
+          "Plan: Continue current management. Follow up as scheduled."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Pregnancy",
+        "onsetDate": "2024-06-15"
+      }
+    ]
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Brown",
+    "gender": "male",
+    "birthDate": "1955-12-19",
+    "phone": "(555) 807-9067",
+    "email": "michael.brown@email.com",
+    "address": {
+      "line": "222 Walnut Way",
+      "city": "Boston",
+      "state": "MA",
+      "postalCode": "02101",
+      "country": "USA"
+    },
+    "medicalAid": "HARVARD-PIL-11223",
+    "visits": [
+      {
+        "date": "2024-10-30",
+        "reason": "Diabetes management",
+        "notes": [
+          "Subjective: Patient presented for diabetes management. A1C 7.2, adjust insulin Diabetes management. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Fingerstick glucose reviewed. A1C trend discussed. Weight and vitals recorded.",
+          "Assessment: Diabetes management. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Type 2 Diabetes",
+        "onsetDate": "2015-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Insulin glargine",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Davis",
+    "gender": "female",
+    "birthDate": "1992-04-25",
+    "phone": "(555) 908-0178",
+    "email": "emily.d@email.com",
+    "address": {
+      "line": "100 River Rd",
+      "city": "Nashville",
+      "state": "TN",
+      "postalCode": "37201",
+      "country": "USA"
+    },
+    "visits": [
+      {
+        "date": "2024-11-10",
+        "reason": "Migraine follow-up",
+        "notes": [
+          "Subjective: Patient presented for migraine follow-up. Triptan effective, reduce frequency Migraine follow-up. Stable. Continue current management. Follow up as scheduled.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unchanged from baseline.",
+          "Assessment: Migraine follow-up. Stable.",
+          "Plan: Continue current management. Follow up as scheduled."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Chronic migraine",
+        "onsetDate": "2020-02-01"
+      }
+    ]
+  },
+  {
+    "firstName": "Christopher",
+    "lastName": "Lee",
+    "gender": "male",
+    "birthDate": "1987-08-11",
+    "phone": "(555) 109-1289",
+    "email": "chris.lee@email.com",
+    "address": {
+      "line": "777 Sunset Blvd",
+      "city": "Los Angeles",
+      "state": "CA",
+      "postalCode": "90001",
+      "country": "USA"
+    },
+    "medicalAid": "BLUE-SHIELD-55443",
+    "visits": [
+      {
+        "date": "2024-11-22",
+        "reason": "Sports physical",
+        "notes": [
+          "Subjective: Patient presented for sports physical. Cleared for basketball Sports physical. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Complete physical exam performed. Vital signs stable. No acute findings.",
+          "Assessment: Sports physical. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "vitals": [
+      {
+        "date": "2024-11-22",
+        "type": "Height",
+        "value": "5 ft 11 in"
+      },
+      {
+        "date": "2024-11-22",
+        "type": "Weight",
+        "value": "175 lbs"
+      }
+    ]
+  },
+  {
+    "firstName": "Amanda",
+    "lastName": "White",
+    "gender": "female",
+    "birthDate": "1978-02-14",
+    "phone": "(555) 210-2390",
+    "email": "amanda.w@email.com",
+    "address": {
+      "line": "333 Lake View",
+      "city": "Chicago",
+      "state": "IL",
+      "postalCode": "60601",
+      "country": "USA"
+    },
+    "medicalAid": "AETNA-22334",
+    "visits": [
+      {
+        "date": "2024-12-02",
+        "reason": "Thyroid check",
+        "notes": [
+          "Subjective: Patient presented for thyroid check. TSH normal on levothyroxine Thyroid check. Stable. Continue current management. Follow up as scheduled.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unchanged from baseline.",
+          "Assessment: Thyroid check. Stable.",
+          "Plan: Continue current management. Follow up as scheduled."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Hypothyroidism",
+        "onsetDate": "2019-06-01"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Levothyroxine 75mcg",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Daniel",
+    "lastName": "Harris",
+    "gender": "male",
+    "birthDate": "1968-06-28",
+    "phone": "(555) 311-3401",
+    "email": "dan.harris@email.com",
+    "address": {
+      "line": "444 Hill St",
+      "city": "Philadelphia",
+      "state": "PA",
+      "postalCode": "19101",
+      "country": "USA"
+    },
+    "medicalAid": "INDEPENDENCE-66778",
+    "visits": [
+      {
+        "date": "2024-10-15",
+        "reason": "COPD follow-up",
+        "notes": [
+          "Subjective: Patient presented for copd follow-up. Peak flow improved COPD follow-up. Stable. Continue current management. Follow up as scheduled.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unchanged from baseline.",
+          "Assessment: COPD follow-up. Stable.",
+          "Plan: Continue current management. Follow up as scheduled."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "COPD",
+        "onsetDate": "2016-11-10"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Albuterol inhaler",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Jessica",
+    "lastName": "Clark",
+    "gender": "female",
+    "birthDate": "1990-10-03",
+    "phone": "(555) 412-4512",
+    "email": "jessica.c@email.com",
+    "address": {
+      "line": "666 Park Ave",
+      "city": "New York",
+      "state": "NY",
+      "postalCode": "10001",
+      "country": "USA"
+    },
+    "visits": [
+      {
+        "date": "2024-11-18",
+        "reason": "Anxiety management",
+        "notes": [
+          "Subjective: Patient presented for anxiety management. Continue CBT, meds stable Anxiety management. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: Anxiety management. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Generalized anxiety disorder",
+        "onsetDate": "2021-04-12"
+      }
+    ]
+  },
+  {
+    "firstName": "Matthew",
+    "lastName": "Lewis",
+    "gender": "male",
+    "birthDate": "1973-03-09",
+    "phone": "(555) 513-5623",
+    "email": "matt.lewis@email.com",
+    "address": {
+      "line": "999 Valley Rd",
+      "city": "Phoenix",
+      "state": "AZ",
+      "postalCode": "85001",
+      "country": "USA"
+    },
+    "medicalAid": "BCBS-AZ-88990",
+    "visits": [
+      {
+        "date": "2024-11-25",
+        "reason": "Back pain",
+        "notes": [
+          "Subjective: Patient presented for back pain. MRI scheduled Back pain. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Musculoskeletal exam performed. Range of motion and strength assessed.",
+          "Assessment: Back pain. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "labs": [
+      {
+        "date": "2024-11-20",
+        "type": "ESR",
+        "result": "12 mm/hr",
+        "interpretation": "Normal"
+      }
+    ]
+  },
+  {
+    "firstName": "Ashley",
+    "lastName": "Young",
+    "gender": "female",
+    "birthDate": "1985-07-16",
+    "phone": "(555) 614-6734",
+    "email": "ashley.y@email.com",
+    "address": {
+      "line": "111 Forest Dr",
+      "city": "Atlanta",
+      "state": "GA",
+      "postalCode": "30301",
+      "country": "USA"
+    },
+    "medicalAid": "ANTHEM-33445",
+    "visits": [
+      {
+        "date": "2024-12-01",
+        "reason": "Pediatric well-child (child)",
+        "notes": [
+          "Subjective: Patient presented for pediatric well-child (child). Child accompanied, vaccines up to date Pediatric well-child (child). Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: Pediatric well-child (child). Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "vitals": [
+      {
+        "date": "2024-12-01",
+        "type": "Blood Pressure",
+        "value": "112/70 mmHg"
+      }
+    ]
+  },
+  {
+    "firstName": "Andrew",
+    "lastName": "King",
+    "gender": "male",
+    "birthDate": "1960-11-23",
+    "phone": "(555) 715-7845",
+    "email": "andrew.king@email.com",
+    "address": {
+      "line": "222 Meadow Ln",
+      "city": "Miami",
+      "state": "FL",
+      "postalCode": "33101",
+      "country": "USA"
+    },
+    "medicalAid": "FLORIDA-BLUE-44556",
+    "visits": [
+      {
+        "date": "2024-10-28",
+        "reason": "Cardiac stress test review",
+        "notes": [
+          "Subjective: Patient presented for cardiac stress test review. Negative stress test Cardiac stress test review. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: EKG reviewed. Heart sounds regular. No edema. Vital signs stable.",
+          "Assessment: Cardiac stress test review. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Coronary artery disease",
+        "onsetDate": "2017-09-01"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Atorvastatin 40mg",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Stephanie",
+    "lastName": "Wright",
+    "gender": "female",
+    "birthDate": "1993-05-07",
+    "phone": "(555) 816-8956",
+    "email": "stephanie.w@email.com",
+    "address": {
+      "line": "333 Garden St",
+      "city": "Raleigh",
+      "state": "NC",
+      "postalCode": "27601",
+      "country": "USA"
+    },
+    "visits": [
+      {
+        "date": "2024-11-12",
+        "reason": "Acne treatment",
+        "notes": [
+          "Subjective: Patient presented for acne treatment. Topical retinoid prescribed Acne treatment. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: Acne treatment. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Tretinoin 0.025% cream",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Joseph",
+    "lastName": "Scott",
+    "gender": "male",
+    "birthDate": "1980-01-21",
+    "phone": "(555) 917-9067",
+    "email": "joseph.scott@email.com",
+    "address": {
+      "line": "444 Harbor View",
+      "city": "Baltimore",
+      "state": "MD",
+      "postalCode": "21201",
+      "country": "USA"
+    },
+    "medicalAid": "CAREFIRST-55667",
+    "visits": [
+      {
+        "date": "2024-11-30",
+        "reason": "Annual physical",
+        "notes": [
+          "Subjective: Patient presented for annual physical. Routine labs ordered Annual physical. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Complete physical exam performed. Vital signs stable. No acute findings.",
+          "Assessment: Annual physical. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "labs": [
+      {
+        "date": "2024-11-30",
+        "type": "Lipid panel",
+        "result": "Total chol 198 mg/dL",
+        "interpretation": "Normal"
+      }
+    ]
+  },
+  {
+    "firstName": "Nicole",
+    "lastName": "Green",
+    "gender": "female",
+    "birthDate": "1976-08-14",
+    "phone": "(555) 018-0178",
+    "email": "nicole.green@email.com",
+    "address": {
+      "line": "555 Mountain Ave",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "postalCode": "84101",
+      "country": "USA"
+    },
+    "medicalAid": "SELECTHEALTH-66778",
+    "visits": [
+      {
+        "date": "2024-10-22",
+        "reason": "Rheumatology",
+        "notes": [
+          "Subjective: Patient presented for rheumatology. RA well controlled on methotrexate Rheumatology. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: Rheumatology. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Rheumatoid arthritis",
+        "onsetDate": "2014-03-15"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Methotrexate 15mg weekly",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "William",
+    "lastName": "Adams",
+    "gender": "male",
+    "birthDate": "1958-04-02",
+    "phone": "(555) 119-1289",
+    "email": "william.adams@email.com",
+    "address": {
+      "line": "666 Desert Rd",
+      "city": "Albuquerque",
+      "state": "NM",
+      "postalCode": "87101",
+      "country": "USA"
+    },
+    "medicalAid": "BCBS-NM-77889",
+    "visits": [
+      {
+        "date": "2024-11-05",
+        "reason": "Kidney function check",
+        "notes": [
+          "Subjective: Patient presented for kidney function check. eGFR stable Kidney function check. Stable. Continue current management. Follow up as scheduled.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unchanged from baseline.",
+          "Assessment: Kidney function check. Stable.",
+          "Plan: Continue current management. Follow up as scheduled."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "CKD Stage 3",
+        "onsetDate": "2019-07-20"
+      }
+    ],
+    "labs": [
+      {
+        "date": "2024-11-05",
+        "type": "Creatinine",
+        "result": "1.4 mg/dL",
+        "interpretation": "Stable"
+      }
+    ]
+  },
+  {
+    "firstName": "Elizabeth",
+    "lastName": "Baker",
+    "gender": "female",
+    "birthDate": "1991-12-11",
+    "phone": "(555) 220-2390",
+    "email": "elizabeth.b@email.com",
+    "address": {
+      "line": "777 Ocean Dr",
+      "city": "San Diego",
+      "state": "CA",
+      "postalCode": "92101",
+      "country": "USA"
+    },
+    "visits": [
+      {
+        "date": "2024-11-28",
+        "reason": "Contraception counseling",
+        "notes": [
+          "Subjective: Patient presented for contraception counseling. IUD discussed Contraception counseling. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: Contraception counseling. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "vitals": [
+      {
+        "date": "2024-11-28",
+        "type": "Weight",
+        "value": "132 lbs"
+      }
+    ]
+  },
+  {
+    "firstName": "Joshua",
+    "lastName": "Nelson",
+    "gender": "male",
+    "birthDate": "1972-09-26",
+    "phone": "(555) 321-3401",
+    "email": "josh.nelson@email.com",
+    "address": {
+      "line": "888 Plains Rd",
+      "city": "Kansas City",
+      "state": "MO",
+      "postalCode": "64101",
+      "country": "USA"
+    },
+    "medicalAid": "BLUE-KC-88990",
+    "visits": [
+      {
+        "date": "2024-11-15",
+        "reason": "Sleep apnea follow-up",
+        "notes": [
+          "Subjective: Patient presented for sleep apnea follow-up. CPAP compliance good Sleep apnea follow-up. Stable. Continue current management. Follow up as scheduled.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unchanged from baseline.",
+          "Assessment: Sleep apnea follow-up. Stable.",
+          "Plan: Continue current management. Follow up as scheduled."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Obstructive sleep apnea",
+        "onsetDate": "2018-01-10"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "CPAP 10 cm H2O",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Megan",
+    "lastName": "Hill",
+    "gender": "female",
+    "birthDate": "1984-02-08",
+    "phone": "(555) 422-4512",
+    "email": "megan.hill@email.com",
+    "address": {
+      "line": "999 Ridge Way",
+      "city": "Minneapolis",
+      "state": "MN",
+      "postalCode": "55401",
+      "country": "USA"
+    },
+    "medicalAid": "HEALTHPARTNERS-99001",
+    "visits": [
+      {
+        "date": "2024-12-03",
+        "reason": "Depression follow-up",
+        "notes": [
+          "Subjective: Patient presented for depression follow-up. PHQ-9 improved Depression follow-up. Stable. Continue current management. Follow up as scheduled.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unchanged from baseline.",
+          "Assessment: Depression follow-up. Stable.",
+          "Plan: Continue current management. Follow up as scheduled."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Major depressive disorder",
+        "onsetDate": "2022-08-01"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Sertraline 100mg",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Ryan",
+    "lastName": "Campbell",
+    "gender": "male",
+    "birthDate": "1989-06-15",
+    "phone": "(555) 523-5623",
+    "email": "ryan.campbell@email.com",
+    "address": {
+      "line": "100 Broadway",
+      "city": "Detroit",
+      "state": "MI",
+      "postalCode": "48201",
+      "country": "USA"
+    },
+    "visits": [
+      {
+        "date": "2024-11-20",
+        "reason": "Allergy shot",
+        "notes": [
+          "Subjective: Patient presented for allergy shot. No reaction Allergy shot. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: Allergy shot. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Allergic rhinitis",
+        "onsetDate": "2020-05-01"
+      }
+    ]
+  },
+  {
+    "firstName": "Lauren",
+    "lastName": "Mitchell",
+    "gender": "female",
+    "birthDate": "1979-11-30",
+    "phone": "(555) 624-6734",
+    "email": "lauren.m@email.com",
+    "address": {
+      "line": "200 Main St",
+      "city": "Cleveland",
+      "state": "OH",
+      "postalCode": "44101",
+      "country": "USA"
+    },
+    "medicalAid": "MEDICAL MUTUAL-11223",
+    "visits": [
+      {
+        "date": "2024-10-25",
+        "reason": "Mammogram follow-up",
+        "notes": [
+          "Subjective: Patient presented for mammogram follow-up. BI-RADS 1, annual follow-up Mammogram follow-up. Stable. Continue current management. Follow up as scheduled.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unchanged from baseline.",
+          "Assessment: Mammogram follow-up. Stable.",
+          "Plan: Continue current management. Follow up as scheduled."
+        ]
+      }
+    ],
+    "labs": [
+      {
+        "date": "2024-10-25",
+        "type": "Mammogram",
+        "result": "No significant finding",
+        "interpretation": "Normal"
+      }
+    ]
+  },
+  {
+    "firstName": "Kevin",
+    "lastName": "Roberts",
+    "gender": "male",
+    "birthDate": "1965-03-18",
+    "phone": "(555) 725-7845",
+    "email": "kevin.roberts@email.com",
+    "address": {
+      "line": "300 Commerce St",
+      "city": "Indianapolis",
+      "state": "IN",
+      "postalCode": "46201",
+      "country": "USA"
+    },
+    "medicalAid": "ANTHEM-IN-22334",
+    "visits": [
+      {
+        "date": "2024-11-08",
+        "reason": "Prostate screening",
+        "notes": [
+          "Subjective: Patient presented for prostate screening. PSA 2.1 ng/mL Prostate screening. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: Prostate screening. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "labs": [
+      {
+        "date": "2024-11-08",
+        "type": "PSA",
+        "result": "2.1 ng/mL",
+        "interpretation": "Normal for age"
+      }
+    ]
+  },
+  {
+    "firstName": "Rachel",
+    "lastName": "Turner",
+    "gender": "female",
+    "birthDate": "1994-07-04",
+    "phone": "(555) 826-8956",
+    "email": "rachel.t@email.com",
+    "address": {
+      "line": "400 Liberty Ave",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "postalCode": "15201",
+      "country": "USA"
+    },
+    "visits": [
+      {
+        "date": "2024-11-25",
+        "reason": "UTI",
+        "notes": [
+          "Subjective: Patient presented for uti. Culture sent, empiric abx started UTI. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: UTI. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Nitrofurantoin 100mg BID x 5d",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Brandon",
+    "lastName": "Phillips",
+    "gender": "male",
+    "birthDate": "1977-10-12",
+    "phone": "(555) 927-9067",
+    "email": "brandon.p@email.com",
+    "address": {
+      "line": "500 State St",
+      "city": "Columbus",
+      "state": "OH",
+      "postalCode": "43201",
+      "country": "USA"
+    },
+    "medicalAid": "BUCKEYE-33445",
+    "visits": [
+      {
+        "date": "2024-12-01",
+        "reason": "GERD follow-up",
+        "notes": [
+          "Subjective: Patient presented for gerd follow-up. Symptoms controlled on PPI GERD follow-up. Stable. Continue current management. Follow up as scheduled.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unchanged from baseline.",
+          "Assessment: GERD follow-up. Stable.",
+          "Plan: Continue current management. Follow up as scheduled."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "GERD",
+        "onsetDate": "2019-02-01"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Omeprazole 20mg daily",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Samantha",
+    "lastName": "Evans",
+    "gender": "female",
+    "birthDate": "1986-04-19",
+    "phone": "(555) 038-0178",
+    "email": "samantha.e@email.com",
+    "address": {
+      "line": "600 Union St",
+      "city": "Milwaukee",
+      "state": "WI",
+      "postalCode": "53201",
+      "country": "USA"
+    },
+    "medicalAid": "WEA-TRUST-44556",
+    "visits": [
+      {
+        "date": "2024-11-14",
+        "reason": "Asthma check",
+        "notes": [
+          "Subjective: Patient presented for asthma check. Peak flow 92% predicted Asthma check. Stable. Continue current management. Follow up as scheduled.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unchanged from baseline.",
+          "Assessment: Asthma check. Stable.",
+          "Plan: Continue current management. Follow up as scheduled."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Asthma",
+        "onsetDate": "2012-06-01"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Fluticasone/salmeterol inhaler",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Justin",
+    "lastName": "Parker",
+    "gender": "male",
+    "birthDate": "1996-01-05",
+    "phone": "(555) 139-1289",
+    "email": "justin.parker@email.com",
+    "address": {
+      "line": "700 River Rd",
+      "city": "Louisville",
+      "state": "KY",
+      "postalCode": "40201",
+      "country": "USA"
+    },
+    "visits": [
+      {
+        "date": "2024-11-22",
+        "reason": "Sports physical",
+        "notes": [
+          "Subjective: Patient presented for sports physical. Cleared for soccer Sports physical. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Complete physical exam performed. Vital signs stable. No acute findings.",
+          "Assessment: Sports physical. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "vitals": [
+      {
+        "date": "2024-11-22",
+        "type": "BMI",
+        "value": "22.1 kg/m2"
+      }
+    ]
+  },
+  {
+    "firstName": "Brittany",
+    "lastName": "Edwards",
+    "gender": "female",
+    "birthDate": "1981-08-27",
+    "phone": "(555) 240-2390",
+    "email": "brittany.e@email.com",
+    "address": {
+      "line": "800 Lake St",
+      "city": "Charlotte",
+      "state": "NC",
+      "postalCode": "28201",
+      "country": "USA"
+    },
+    "medicalAid": "BCBS-NC-55667",
+    "visits": [
+      {
+        "date": "2024-11-30",
+        "reason": "Annual exam",
+        "notes": [
+          "Subjective: Patient presented for annual exam. Pap smear done Annual exam. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Complete physical exam performed. Vital signs stable. No acute findings.",
+          "Assessment: Annual exam. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "labs": [
+      {
+        "date": "2024-11-30",
+        "type": "Pap smear",
+        "result": "Negative",
+        "interpretation": "Normal"
+      }
+    ]
+  },
+  {
+    "firstName": "Tyler",
+    "lastName": "Collins",
+    "gender": "male",
+    "birthDate": "1963-12-03",
+    "phone": "(555) 341-3401",
+    "email": "tyler.collins@email.com",
+    "address": {
+      "line": "900 Park Blvd",
+      "city": "Tampa",
+      "state": "FL",
+      "postalCode": "33601",
+      "country": "USA"
+    },
+    "medicalAid": "AVMED-66778",
+    "visits": [
+      {
+        "date": "2024-10-18",
+        "reason": "Oncology follow-up",
+        "notes": [
+          "Subjective: Patient presented for oncology follow-up. Remission maintained Oncology follow-up. Stable. Continue current management. Follow up as scheduled.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unchanged from baseline.",
+          "Assessment: Oncology follow-up. Stable.",
+          "Plan: Continue current management. Follow up as scheduled."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Colon cancer, post-resection",
+        "onsetDate": "2021-04-01"
+      }
+    ]
+  },
+  {
+    "firstName": "Victoria",
+    "lastName": "Stewart",
+    "gender": "female",
+    "birthDate": "1997-05-21",
+    "phone": "(555) 452-4512",
+    "email": "victoria.s@email.com",
+    "address": {
+      "line": "1000 Elm St",
+      "city": "Orlando",
+      "state": "FL",
+      "postalCode": "32801",
+      "country": "USA"
+    },
+    "visits": [
+      {
+        "date": "2024-11-18",
+        "reason": "Mental health",
+        "notes": [
+          "Subjective: Patient presented for mental health. ADHD evaluation Mental health. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: Mental health. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "ADHD",
+        "onsetDate": "2023-09-01"
+      }
+    ]
+  },
+  {
+    "firstName": "Nathan",
+    "lastName": "Sanchez",
+    "gender": "male",
+    "birthDate": "1974-07-09",
+    "phone": "(555) 563-5623",
+    "email": "nathan.s@email.com",
+    "address": {
+      "line": "1100 Oak Ave",
+      "city": "Houston",
+      "state": "TX",
+      "postalCode": "77001",
+      "country": "USA"
+    },
+    "medicalAid": "BCBS-TX-77889",
+    "visits": [
+      {
+        "date": "2024-11-26",
+        "reason": "Hypertension",
+        "notes": [
+          "Subjective: Patient presented for hypertension. BP 128/82, increase lisinopril Hypertension. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: Hypertension. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Hypertension",
+        "onsetDate": "2016-04-10"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Lisinopril 20mg",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Christina",
+    "lastName": "Morris",
+    "gender": "female",
+    "birthDate": "1988-11-16",
+    "phone": "(555) 674-6734",
+    "email": "christina.m@email.com",
+    "address": {
+      "line": "1200 Pine St",
+      "city": "Dallas",
+      "state": "TX",
+      "postalCode": "75201",
+      "country": "USA"
+    },
+    "medicalAid": "CIGNA-TX-88990",
+    "visits": [
+      {
+        "date": "2024-12-02",
+        "reason": "Pregnancy confirmation",
+        "notes": [
+          "Subjective: Patient presented for pregnancy confirmation. Estimated 8 weeks Pregnancy confirmation. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Fetal heart tones present. Fundal height measured. Vital signs stable.",
+          "Assessment: Pregnancy confirmation. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Pregnancy",
+        "onsetDate": "2024-10-15"
+      }
+    ]
+  },
+  {
+    "firstName": "Benjamin",
+    "lastName": "Rogers",
+    "gender": "male",
+    "birthDate": "1956-02-28",
+    "phone": "(555) 785-7845",
+    "email": "ben.rogers@email.com",
+    "address": {
+      "line": "1300 Cedar Ln",
+      "city": "St. Louis",
+      "state": "MO",
+      "postalCode": "63101",
+      "country": "USA"
+    },
+    "medicalAid": "ANTHEM-MO-99001",
+    "visits": [
+      {
+        "date": "2024-11-10",
+        "reason": "Pneumonia follow-up",
+        "notes": [
+          "Subjective: Patient presented for pneumonia follow-up. CXR clear Pneumonia follow-up. Stable. Continue current management. Follow up as scheduled.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unchanged from baseline.",
+          "Assessment: Pneumonia follow-up. Stable.",
+          "Plan: Continue current management. Follow up as scheduled."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Community-acquired pneumonia",
+        "onsetDate": "2024-10-28"
+      }
+    ]
+  },
+  {
+    "firstName": "Heather",
+    "lastName": "Reed",
+    "gender": "female",
+    "birthDate": "1971-09-07",
+    "phone": "(555) 896-8956",
+    "email": "heather.reed@email.com",
+    "address": {
+      "line": "1400 Maple Dr",
+      "city": "Cincinnati",
+      "state": "OH",
+      "postalCode": "45201",
+      "country": "USA"
+    },
+    "medicalAid": "MEDICAL MUTUAL-10112",
+    "visits": [
+      {
+        "date": "2024-11-05",
+        "reason": "Fibromyalgia",
+        "notes": [
+          "Subjective: Patient presented for fibromyalgia. Exercise program discussed Fibromyalgia. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: Fibromyalgia. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Fibromyalgia",
+        "onsetDate": "2015-11-01"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Duloxetine 60mg",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Samuel",
+    "lastName": "Cook",
+    "gender": "male",
+    "birthDate": "1983-04-14",
+    "phone": "(555) 907-9067",
+    "email": "sam.cook@email.com",
+    "address": {
+      "line": "1500 Birch Way",
+      "city": "Memphis",
+      "state": "TN",
+      "postalCode": "38101",
+      "country": "USA"
+    },
+    "visits": [
+      {
+        "date": "2024-11-28",
+        "reason": "Hepatitis C follow-up",
+        "notes": [
+          "Subjective: Patient presented for hepatitis c follow-up. SVR12 achieved Hepatitis C follow-up. Stable. Continue current management. Follow up as scheduled.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unchanged from baseline.",
+          "Assessment: Hepatitis C follow-up. Stable.",
+          "Plan: Continue current management. Follow up as scheduled."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Hepatitis C, cured",
+        "onsetDate": "2023-01-01"
+      }
+    ]
+  },
+  {
+    "firstName": "Amber",
+    "lastName": "Morgan",
+    "gender": "female",
+    "birthDate": "1992-01-23",
+    "phone": "(555) 018-0178",
+    "email": "amber.morgan@email.com",
+    "address": {
+      "line": "1600 Walnut St",
+      "city": "Richmond",
+      "state": "VA",
+      "postalCode": "23219",
+      "country": "USA"
+    },
+    "visits": [
+      {
+        "date": "2024-11-20",
+        "reason": "IUD check",
+        "notes": [
+          "Subjective: Patient presented for iud check. Strings visible, no issues IUD check. Stable. Continue current management. Follow up as scheduled.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unchanged from baseline.",
+          "Assessment: IUD check. Stable.",
+          "Plan: Continue current management. Follow up as scheduled."
+        ]
+      }
+    ],
+    "vitals": [
+      {
+        "date": "2024-11-20",
+        "type": "Blood Pressure",
+        "value": "108/68 mmHg"
+      }
+    ]
+  },
+  {
+    "firstName": "Jonathan",
+    "lastName": "Bell",
+    "gender": "male",
+    "birthDate": "1969-06-30",
+    "phone": "(555) 129-1289",
+    "email": "jonathan.bell@email.com",
+    "address": {
+      "line": "1700 Hill Ave",
+      "city": "New Orleans",
+      "state": "LA",
+      "postalCode": "70112",
+      "country": "USA"
+    },
+    "medicalAid": "BCBS-LA-11223",
+    "visits": [
+      {
+        "date": "2024-10-30",
+        "reason": "AFib follow-up",
+        "notes": [
+          "Subjective: Patient presented for afib follow-up. Rate controlled AFib follow-up. Stable. Continue current management. Follow up as scheduled.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unchanged from baseline.",
+          "Assessment: AFib follow-up. Stable.",
+          "Plan: Continue current management. Follow up as scheduled."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Atrial fibrillation",
+        "onsetDate": "2018-07-15"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Apixaban 5mg BID",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Melissa",
+    "lastName": "Murphy",
+    "gender": "female",
+    "birthDate": "1987-10-05",
+    "phone": "(555) 230-2390",
+    "email": "melissa.murphy@email.com",
+    "address": {
+      "line": "1800 River View",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "postalCode": "73102",
+      "country": "USA"
+    },
+    "medicalAid": "BCBS-OK-22334",
+    "visits": [
+      {
+        "date": "2024-12-04",
+        "reason": "Migraine",
+        "notes": [
+          "Subjective: Patient presented for migraine. New preventive started Migraine. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Neurologic exam non-focal. Headache severity and frequency reviewed.",
+          "Assessment: Migraine. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Chronic migraine",
+        "onsetDate": "2019-03-01"
+      }
+    ]
+  },
+  {
+    "firstName": "Aaron",
+    "lastName": "Bailey",
+    "gender": "male",
+    "birthDate": "1976-03-11",
+    "phone": "(555) 351-3401",
+    "email": "aaron.bailey@email.com",
+    "address": {
+      "line": "1900 Sunset Dr",
+      "city": "Albuquerque",
+      "state": "NM",
+      "postalCode": "87102",
+      "country": "USA"
+    },
+    "visits": [
+      {
+        "date": "2024-11-12",
+        "reason": "Dermatology",
+        "notes": [
+          "Subjective: Patient presented for dermatology. Basal cell excision site healed Dermatology. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: Dermatology. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Basal cell carcinoma, excised",
+        "onsetDate": "2024-08-01"
+      }
+    ]
+  },
+  {
+    "firstName": "Rebecca",
+    "lastName": "Rivera",
+    "gender": "female",
+    "birthDate": "1995-08-18",
+    "phone": "(555) 462-4512",
+    "email": "rebecca.r@email.com",
+    "address": {
+      "line": "2000 Ocean Ave",
+      "city": "San Jose",
+      "state": "CA",
+      "postalCode": "95101",
+      "country": "USA"
+    },
+    "medicalAid": "KAISER-SJ-33445",
+    "visits": [
+      {
+        "date": "2024-11-25",
+        "reason": "Anxiety",
+        "notes": [
+          "Subjective: Patient presented for anxiety. Started SSRI Anxiety. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: Anxiety. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Escitalopram 10mg",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Eric",
+    "lastName": "Cooper",
+    "gender": "male",
+    "birthDate": "1961-11-22",
+    "phone": "(555) 573-5623",
+    "email": "eric.cooper@email.com",
+    "address": {
+      "line": "2100 Valley Rd",
+      "city": "Las Vegas",
+      "state": "NV",
+      "postalCode": "89101",
+      "country": "USA"
+    },
+    "medicalAid": "SIERRA-44556",
+    "visits": [
+      {
+        "date": "2024-11-08",
+        "reason": "Cataract post-op",
+        "notes": [
+          "Subjective: Patient presented for cataract post-op. Vision 20/25 Cataract post-op. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: Cataract post-op. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Cataract, right eye (post-op)",
+        "onsetDate": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "firstName": "Danielle",
+    "lastName": "Richardson",
+    "gender": "female",
+    "birthDate": "1980-02-16",
+    "phone": "(555) 684-6734",
+    "email": "danielle.r@email.com",
+    "address": {
+      "line": "2200 Desert Blvd",
+      "city": "Tucson",
+      "state": "AZ",
+      "postalCode": "85701",
+      "country": "USA"
+    },
+    "medicalAid": "BCBS-AZ-55667",
+    "visits": [
+      {
+        "date": "2024-11-30",
+        "reason": "Hypothyroidism",
+        "notes": [
+          "Subjective: Patient presented for hypothyroidism. TSH 2.1, dose unchanged Hypothyroidism. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: TSH/labs reviewed. No thyroid nodule on exam. Vital signs within normal limits.",
+          "Assessment: Hypothyroidism. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Hypothyroidism",
+        "onsetDate": "2017-05-01"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Levothyroxine 88mcg",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Brian",
+    "lastName": "Cox",
+    "gender": "male",
+    "birthDate": "1998-07-02",
+    "phone": "(555) 795-7845",
+    "email": "brian.cox@email.com",
+    "address": {
+      "line": "2300 Mountain View",
+      "city": "Boise",
+      "state": "ID",
+      "postalCode": "83701",
+      "country": "USA"
+    },
+    "visits": [
+      {
+        "date": "2024-11-15",
+        "reason": "Physical",
+        "notes": [
+          "Subjective: Patient presented for physical. Routine, no concerns Physical. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Complete physical exam performed. Vital signs stable. No acute findings.",
+          "Assessment: Physical. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "vitals": [
+      {
+        "date": "2024-11-15",
+        "type": "Height",
+        "value": "6 ft 0 in"
+      },
+      {
+        "date": "2024-11-15",
+        "type": "Weight",
+        "value": "185 lbs"
+      }
+    ]
+  },
+  {
+    "firstName": "Sara",
+    "lastName": "Howard",
+    "gender": "female",
+    "birthDate": "1973-12-09",
+    "phone": "(555) 806-8956",
+    "email": "sara.howard@email.com",
+    "address": {
+      "line": "2400 Forest Ln",
+      "city": "Spokane",
+      "state": "WA",
+      "postalCode": "99201",
+      "country": "USA"
+    },
+    "medicalAid": "PREmera-66778",
+    "visits": [
+      {
+        "date": "2024-10-28",
+        "reason": "Breast pain",
+        "notes": [
+          "Subjective: Patient presented for breast pain. Cyclical, reassurance Breast pain. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Musculoskeletal exam performed. Range of motion and strength assessed.",
+          "Assessment: Breast pain. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "labs": [
+      {
+        "date": "2024-10-28",
+        "type": "Mammogram",
+        "result": "Negative",
+        "interpretation": "Normal"
+      }
+    ]
+  },
+  {
+    "firstName": "Adam",
+    "lastName": "Ward",
+    "gender": "male",
+    "birthDate": "1985-05-27",
+    "phone": "(555) 917-9067",
+    "email": "adam.ward@email.com",
+    "address": {
+      "line": "2500 Harbor Dr",
+      "city": "Anchorage",
+      "state": "AK",
+      "postalCode": "99501",
+      "country": "USA"
+    },
+    "medicalAid": "PREmera-AK-77889",
+    "visits": [
+      {
+        "date": "2024-11-22",
+        "reason": "Laceration repair",
+        "notes": [
+          "Subjective: Patient presented for laceration repair. Hand, 3 sutures Laceration repair. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: Laceration repair. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "vitals": [
+      {
+        "date": "2024-11-22",
+        "type": "Blood Pressure",
+        "value": "122/78 mmHg"
+      }
+    ]
+  },
+  {
+    "firstName": "Kayla",
+    "lastName": "Torres",
+    "gender": "female",
+    "birthDate": "1991-09-14",
+    "phone": "(555) 028-0178",
+    "email": "kayla.torres@email.com",
+    "address": {
+      "line": "2600 Capitol St",
+      "city": "Honolulu",
+      "state": "HI",
+      "postalCode": "96801",
+      "country": "USA"
+    },
+    "visits": [
+      {
+        "date": "2024-12-01",
+        "reason": "Prenatal",
+        "notes": [
+          "Subjective: Patient presented for prenatal. Week 16, NIPT normal Prenatal. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Fetal heart tones present. Fundal height measured. Vital signs stable.",
+          "Assessment: Prenatal. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Pregnancy",
+        "onsetDate": "2024-08-15"
+      }
+    ]
+  },
+  {
+    "firstName": "Patrick",
+    "lastName": "Peterson",
+    "gender": "male",
+    "birthDate": "1959-04-08",
+    "phone": "(555) 139-1289",
+    "email": "patrick.p@email.com",
+    "address": {
+      "line": "2700 Main St",
+      "city": "Hartford",
+      "state": "CT",
+      "postalCode": "06101",
+      "country": "USA"
+    },
+    "medicalAid": "ANTHEM-CT-88990",
+    "visits": [
+      {
+        "date": "2024-11-05",
+        "reason": "CHF follow-up",
+        "notes": [
+          "Subjective: Patient presented for chf follow-up. Weight stable, no edema CHF follow-up. Stable. Continue current management. Follow up as scheduled.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unchanged from baseline.",
+          "Assessment: CHF follow-up. Stable.",
+          "Plan: Continue current management. Follow up as scheduled."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Heart failure, reduced EF",
+        "onsetDate": "2016-02-01"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Sacubitril/valsartan 97/103mg",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Michelle",
+    "lastName": "Gray",
+    "gender": "female",
+    "birthDate": "1982-01-31",
+    "phone": "(555) 240-2390",
+    "email": "michelle.gray@email.com",
+    "address": {
+      "line": "2800 Park Ave",
+      "city": "Providence",
+      "state": "RI",
+      "postalCode": "02901",
+      "country": "USA"
+    },
+    "medicalAid": "BCBS-RI-99001",
+    "visits": [
+      {
+        "date": "2024-11-18",
+        "reason": "IBS",
+        "notes": [
+          "Subjective: Patient presented for ibs. FODMAP diet helpful IBS. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: IBS. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Irritable bowel syndrome",
+        "onsetDate": "2018-09-01"
+      }
+    ]
+  },
+  {
+    "firstName": "Steven",
+    "lastName": "James",
+    "gender": "male",
+    "birthDate": "1970-08-20",
+    "phone": "(555) 351-3401",
+    "email": "steven.james@email.com",
+    "address": {
+      "line": "2900 Water St",
+      "city": "Burlington",
+      "state": "VT",
+      "postalCode": "05401",
+      "country": "USA"
+    },
+    "visits": [
+      {
+        "date": "2024-11-28",
+        "reason": "Gout flare",
+        "notes": [
+          "Subjective: Patient presented for gout flare. Colchicine x 3 days Gout flare. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: Gout flare. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Gout",
+        "onsetDate": "2014-11-01"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Allopurinol 300mg",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Kimberly",
+    "lastName": "Watson",
+    "gender": "female",
+    "birthDate": "1994-03-25",
+    "phone": "(555) 462-4512",
+    "email": "kimberly.w@email.com",
+    "address": {
+      "line": "3000 Bridge Rd",
+      "city": "Manchester",
+      "state": "NH",
+      "postalCode": "03101",
+      "country": "USA"
+    },
+    "visits": [
+      {
+        "date": "2024-12-03",
+        "reason": "Contraception",
+        "notes": [
+          "Subjective: Patient presented for contraception. Nexplanon inserted Contraception. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: Contraception. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "vitals": [
+      {
+        "date": "2024-12-03",
+        "type": "Weight",
+        "value": "128 lbs"
+      }
+    ]
+  },
+  {
+    "firstName": "Timothy",
+    "lastName": "Brooks",
+    "gender": "male",
+    "birthDate": "1967-10-17",
+    "phone": "(555) 573-5623",
+    "email": "tim.brooks@email.com",
+    "address": {
+      "line": "3100 Lake Rd",
+      "city": "Des Moines",
+      "state": "IA",
+      "postalCode": "50301",
+      "country": "USA"
+    },
+    "medicalAid": "WELLMARK-10112",
+    "visits": [
+      {
+        "date": "2024-10-22",
+        "reason": "Colonoscopy follow-up",
+        "notes": [
+          "Subjective: Patient presented for colonoscopy follow-up. 1 polyp removed, benign Colonoscopy follow-up. Stable. Continue current management. Follow up as scheduled.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unchanged from baseline.",
+          "Assessment: Colonoscopy follow-up. Stable.",
+          "Plan: Continue current management. Follow up as scheduled."
+        ]
+      }
+    ],
+    "labs": [
+      {
+        "date": "2024-10-22",
+        "type": "Pathology",
+        "result": "Tubular adenoma",
+        "interpretation": "Benign"
+      }
+    ]
+  },
+  {
+    "firstName": "Laura",
+    "lastName": "Kelly",
+    "gender": "female",
+    "birthDate": "1989-06-06",
+    "phone": "(555) 684-6734",
+    "email": "laura.kelly@email.com",
+    "address": {
+      "line": "3200 Prairie Dr",
+      "city": "Omaha",
+      "state": "NE",
+      "postalCode": "68101",
+      "country": "USA"
+    },
+    "medicalAid": "BCBS-NE-11223",
+    "visits": [
+      {
+        "date": "2024-11-26",
+        "reason": "Eczema",
+        "notes": [
+          "Subjective: Patient presented for eczema. Steroid cream refill Eczema. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: Eczema. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Atopic dermatitis",
+        "onsetDate": "2020-01-01"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Triamcinolone 0.1% cream",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Mark",
+    "lastName": "Sanders",
+    "gender": "male",
+    "birthDate": "1957-12-12",
+    "phone": "(555) 795-7845",
+    "email": "mark.sanders@email.com",
+    "address": {
+      "line": "3300 Canyon Rd",
+      "city": "Cheyenne",
+      "state": "WY",
+      "postalCode": "82001",
+      "country": "USA"
+    },
+    "medicalAid": "BCBS-WY-22334",
+    "visits": [
+      {
+        "date": "2024-11-10",
+        "reason": "Parkinson follow-up",
+        "notes": [
+          "Subjective: Patient presented for parkinson follow-up. Levodopa dose adjusted Parkinson follow-up. Stable. Continue current management. Follow up as scheduled.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unchanged from baseline.",
+          "Assessment: Parkinson follow-up. Stable.",
+          "Plan: Continue current management. Follow up as scheduled."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Parkinson disease",
+        "onsetDate": "2015-06-01"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Carbidopa/levodopa 25/100",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Angela",
+    "lastName": "Price",
+    "gender": "female",
+    "birthDate": "1978-04-03",
+    "phone": "(555) 806-8956",
+    "email": "angela.price@email.com",
+    "address": {
+      "line": "3400 Mesa St",
+      "city": "Denver",
+      "state": "CO",
+      "postalCode": "80203",
+      "country": "USA"
+    },
+    "medicalAid": "ANTHEM-CO-33445",
+    "visits": [
+      {
+        "date": "2024-12-02",
+        "reason": "Annual exam",
+        "notes": [
+          "Subjective: Patient presented for annual exam. Mammogram ordered Annual exam. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Complete physical exam performed. Vital signs stable. No acute findings.",
+          "Assessment: Annual exam. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "vitals": [
+      {
+        "date": "2024-12-02",
+        "type": "Blood Pressure",
+        "value": "116/74 mmHg"
+      }
+    ]
+  },
+  {
+    "firstName": "Paul",
+    "lastName": "Bennett",
+    "gender": "male",
+    "birthDate": "1986-09-19",
+    "phone": "(555) 917-9067",
+    "email": "paul.bennett@email.com",
+    "address": {
+      "line": "3500 Summit Ave",
+      "city": "Portland",
+      "state": "ME",
+      "postalCode": "04101",
+      "country": "USA"
+    },
+    "visits": [
+      {
+        "date": "2024-11-14",
+        "reason": "Lyme disease",
+        "notes": [
+          "Subjective: Patient presented for lyme disease. Doxycycline 21 days Lyme disease. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: Lyme disease. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Lyme disease",
+        "onsetDate": "2024-11-01"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Doxycycline 100mg BID",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Tiffany",
+    "lastName": "Wood",
+    "gender": "female",
+    "birthDate": "1996-02-28",
+    "phone": "(555) 028-0178",
+    "email": "tiffany.wood@email.com",
+    "address": {
+      "line": "3600 Coast Dr",
+      "city": "Newark",
+      "state": "NJ",
+      "postalCode": "07101",
+      "country": "USA"
+    },
+    "medicalAid": "HORIZON-44556",
+    "visits": [
+      {
+        "date": "2024-11-20",
+        "reason": "Annual physical",
+        "notes": [
+          "Subjective: Patient presented for annual physical. Routine, vaccines updated Annual physical. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Complete physical exam performed. Vital signs stable. No acute findings.",
+          "Assessment: Annual physical. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "labs": [
+      {
+        "date": "2024-11-20",
+        "type": "CBC",
+        "result": "WNL",
+        "interpretation": "Normal"
+      }
+    ]
+  },
+  {
+    "firstName": "Gregory",
+    "lastName": "Barnes",
+    "gender": "male",
+    "birthDate": "1964-07-11",
+    "phone": "(555) 139-1289",
+    "email": "greg.barnes@email.com",
+    "address": {
+      "line": "3700 Bay St",
+      "city": "Wilmington",
+      "state": "DE",
+      "postalCode": "19801",
+      "country": "USA"
+    },
+    "medicalAid": "HIGHMARK-55667",
+    "visits": [
+      {
+        "date": "2024-10-25",
+        "reason": "T2DM",
+        "notes": [
+          "Subjective: Patient presented for t2dm. A1C 6.8 T2DM. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: T2DM. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "description": "Type 2 Diabetes",
+        "onsetDate": "2017-04-01"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Metformin 1000mg BID",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "firstName": "Hannah",
+    "lastName": "Ross",
+    "gender": "female",
+    "birthDate": "1990-11-08",
+    "phone": "(555) 240-2390",
+    "email": "hannah.ross@email.com",
+    "address": {
+      "line": "3800 Harbor Way",
+      "city": "Charleston",
+      "state": "SC",
+      "postalCode": "29401",
+      "country": "USA"
+    },
+    "visits": [
+      {
+        "date": "2024-12-04",
+        "reason": "UTI",
+        "notes": [
+          "Subjective: Patient presented for uti. Cipro x 3 days UTI. Stable. Discussed findings and options. Patient to return if symptoms change.",
+          "Objective: Vitals reviewed and within normal limits. Physical exam unremarkable.",
+          "Assessment: UTI. Stable.",
+          "Plan: Discussed findings and options. Patient to return if symptoms change."
+        ]
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Ciprofloxacin 250mg BID",
+        "status": "active"
+      }
+    ]
+  }
+]
