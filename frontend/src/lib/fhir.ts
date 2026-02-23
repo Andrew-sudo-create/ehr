@@ -134,7 +134,9 @@ export type DriveImportResult = {
  * Gets the backend API base URL from environment variables
  */
 export function getBackendApiUrl(): string {
-  const url = process.env.NEXT_PUBLIC_BACKEND_API_URL || 'http://localhost:3001';
+  const url =
+    process.env.NEXT_PUBLIC_BACKEND_API_URL ||
+    "https://ehr-backend-5a5a04974788.herokuapp.com";
   // Remove trailing slash if present
   return url.replace(/\/$/, '');
 }
