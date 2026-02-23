@@ -13,6 +13,8 @@ interface StatsData {
   totalAppointments: number
 }
 
+type StatTrend = "up" | "down" | "neutral"
+
 export function StatsCards() {
   const [stats, setStats] = useState<StatsData | null>(null)
   const [loading, setLoading] = useState(true)
@@ -63,7 +65,13 @@ export function StatsCards() {
     )
   }
 
-  const statsList = [
+  const statsList: {
+    label: string
+    value: string
+    change: string
+    icon: typeof Users
+    trend: StatTrend
+  }[] = [
     {
       label: "Total Patients",
       value: String(stats.totalPatients),
