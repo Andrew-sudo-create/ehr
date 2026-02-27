@@ -166,7 +166,9 @@ export async function getPatients(): Promise<FHIRPatient[]> {
   } catch (error) {
     console.error('Error fetching patients:', error);
     if (error instanceof TypeError && error.message.includes('fetch')) {
-      throw new Error(`Cannot connect to backend server at ${getBackendApiUrl()}. Make sure the backend is running on port 3001.`);
+      throw new Error(
+        `Cannot connect to backend server at ${getBackendApiUrl()}. Make sure this URL is correct and the backend is reachable.`
+      );
     }
     throw error;
   }
